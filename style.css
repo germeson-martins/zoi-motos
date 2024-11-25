@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Inicio Topo */
+.topo {
+    background-color: black;
+    width: 100%;
+}
+
+.topo-logo {
+    height: 95px;
+
+
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+ 
+
+.topo-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.topo-links a:hover {
+    color: rgb(230, 58, 58);
+    border-bottom: 1px solid red;
+}
+
+
+.box-visao-geral {
+    position: center;
+    background-image: url(img/hd-red-motorcycle-outdoors-klg1ffl7fc5oj2a1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    /* opacity: 0.8; */
+    
+}
+
+.box-visao-geral  {
+
+}
+
+.texto-vermelho{
+    color: red;
+    font-weight: bold;  
+}
+
+
+
+.box-visao-geral-titulo {
+    height: 100%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box-visao-geral h1 {
+    font-weight: 500;
+    font-size: 38px;
+    text-transform:uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin-bottom: 20px;
+    text-shadow: 5px 0 #000;
+
+}
+
+
+.secao-servicos {
+    text-align: center;
+    margin: 0 auto ;
+    padding: 120px 80px;
+
+    
+    
+}
+.secao-servicos h2, .secao-contato h2 {
+    margin: 0 0 45px;
+    font-size: 35px;
+}
+.secao-servicos li {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.faixa {
+    padding: 120px 80px;
+    text-align: center;
+
+    background-color: #000000;
+    background-repeat: no-repeat;
+    
+}
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+}
+.redes-sociais a {
+    margin: 0 20px;
+}
+.text-faixa {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 auto;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 0 #000;
+    
+}
+.secao-contato {
+    padding: 120px 80px;
+    text-align: center;
+    border: 0;   
+}
+.secao-contato p {
+    padding: 5px;
+    font-size: 20px;
+}
+.secao-contato a {
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.secao-contato iframe {
+    padding: 30px;
+}
+.rodape {
+    padding: 10px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+
+}
+
+.rodape p{
+    padding-bottom: 5px;
+}
+
+.link-dev a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-dev a:hover {
+    color: red;
+    border-bottom: 1px solid red
+}
+
+.rodape img{
+    height: 80px;
+    padding: 10px;
+}
